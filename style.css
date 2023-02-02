@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursiva', sans-serif;
+}
+body{
+    background-color:  #85979b;
+}
+
+.calculator{
+    align-items: baseline;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #023e8a;
+}
+table td{
+    display: inline-block;
+}
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px; 
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    background-color: #90e0ef;
+    font-size: 16px;
+    transition: all 300ms ease-in-out;
+}
+.btn:hover {
+    background-color: #48cae4;
+}
+.delete, .divisao{
+    padding-top: 1.5px ;
+    width: 12.5px;
+}
+.ac{
+    background-color: #0a95b1;
+}
+.ac:hover{
+    background-color: #0077b6;
+}
+.operacao{
+    background-color: #00abe7;
+}
+.operacao:hover{
+    background-color: #0081af;
+}
+.igual{
+    background-color: #0a95b1;
+}
+.igual:hover{
+    background-color: #0077b6;
+}
+
+.result{
+    background-color: #caf0f8;
+    border-radius: 5px;
+    margin: 10px;
+    height: 100px;
+    color: #292963;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #14fff7;
+
+}
